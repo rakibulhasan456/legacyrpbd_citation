@@ -52,12 +52,13 @@ document.getElementById("citationForm").addEventListener("submit", function(e) {
     report: document.getElementById("report").value,
     suspectName: document.getElementById("suspectName").value,
     cid: document.getElementById("cid").value,
+      contact: document.getElementById("contact").value,
     charges: document.getElementById("charges").value,
     officer: document.getElementById("officerName").value
   };
 
   // Send to Google Sheets via Apps Script
-  fetch("https://script.google.com/macros/s/AKfycbxNynU2p_RhZXGASdDLXJABlct-o5LrsgU_J1gUiuDMm2EMojjSG0zmTTn2mqp6juzg/exec", {
+  fetch("https://script.google.com/macros/s/AKfycbzJvEA9sOMJM6SEzBuAc3U4H2n0dApv3wt1fksXMHFqaRtP4SLAWMufSeCtKNvbXTrIlQ/exec", {
     method: "POST",
     body: JSON.stringify(data)
   })
