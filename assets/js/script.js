@@ -58,7 +58,7 @@ document.getElementById("citationForm").addEventListener("submit", function(e) {
   };
 
   // Send to Google Sheets via Apps Script
-  fetch("https://script.google.com/macros/s/AKfycbzJvEA9sOMJM6SEzBuAc3U4H2n0dApv3wt1fksXMHFqaRtP4SLAWMufSeCtKNvbXTrIlQ/exec", {
+  fetch("https://script.google.com/macros/s/AKfycbzyd8lAi7APGV_wEg8bSuUuIzHsdUt0zHHP5p0SDYTGUXCNKQUa0RNPYy68l1-0_oo_fQ/exec", {
     method: "POST",
     body: JSON.stringify(data)
   })
