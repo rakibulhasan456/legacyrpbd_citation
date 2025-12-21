@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>legacyrpbd_citation</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/copy_restriction.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Police Citation Portal</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Login -->
+  <div id="loginBox">
+    <h2>Officer Verification</h2>
+    <input type="text" id="licenseId" placeholder="Enter License ID">
+    <button onclick="verifyLicense()">Enter</button>
+    <p id="loginError"></p>
+  </div>
+
+  <!-- Form -->
+  <form id="citationForm" style="display:none;">
+    <h2>POLICE CITATION FORM</h2>
+
+    <label class="required">Title</label>
+    <input type="text" id="title" required>
+
+    <label class="required">Incident</label>
+    <select id="incident">
+      <option>Traffic Stop</option>
+    </select>
+
+    <label>Location</label>
+    <input type="text" id="location">
+
+    <label>Evidence Picture Link</label>
+    <textarea id="evidence"></textarea>
+
+    <label>Incident Report</label>
+    <textarea id="report"></textarea>
+
+    <h3>Suspect Section</h3>
+
+    <label class="required">Name</label>
+    <input type="text" id="suspectName" required>
+
+    <label class="required">CID</label>
+    <input type="text" id="cid" required>
+
+    <label>Charges</label>
+    <textarea id="charges"></textarea>
+
+    <label class="required">Officer Name</label>
+    <input type="text" id="officerName" readonly>
+
+    <button type="submit" id="submitBtn">
+  <span class="btn-text">Submit Citation</span>
+  <span class="loader"></span>
+</button>
+
+    <div id="status" class="alert"></div>
+
+  </form>
+
+</div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
+
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/copy_restriction.js"></script>
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
