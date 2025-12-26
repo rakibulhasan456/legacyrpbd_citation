@@ -33,5 +33,11 @@ const officers = {
     "license:c3c05ac1961f4b32ef516653093b49478b257a90": "James William [483]",
     "license:f2c20db86766a238938274ca6a17f0c8518997e3": "Daave Hector [114]",
     "license:f90bbfea5ca28a0b02954554f99f97c212c9bfd4": "Jayed Hassan [606]",
+    "license:711339eea900dda3e836bd3b2af886d3bcec0ca9": "Tasin Rahaman [76]",
+    "license:b8ec014f507932f6b42d46f3afee71dd32fc6dc8": "Nolan Kade [91]",
+    "license:4d44a0aae6c98c9a72dc242e1c759600451ca3a8": "Richard Martin [221]",
+    "license:7a2dfbb1025911e2654f760eca4bf156582cf2c4": "Clive Rayes [576]",
+    "license:ea20eb894f1740adf45b99adc90dba44b8d54692": "Ethan Drake [153]",
+    "license:8a800fda364e30763a1987bfc2aeddc61c0b9c86": "Ashfaq Reeves [163]",
     "test": "test"
 };
