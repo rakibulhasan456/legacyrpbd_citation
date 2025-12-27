@@ -63,7 +63,58 @@
     <input type="text" id="contact" required>
 
     <label>Charges</label>
-    <textarea id="charges"></textarea>
+<div id="chargesContainer" class="charges-box">
+
+  <div class="charge-item">
+    <input type="checkbox" value="Speeding">
+    <span>Speeding</span>
+    <input type="number" min="1" placeholder="0" class="charge-count"> x
+  </div>
+
+  <div class="charge-item">
+    <input type="checkbox" value="Traffic Violation">
+    <span>Traffic Violation</span>
+    <input type="number" min="1" placeholder="0" class="charge-count"> x
+  </div>
+
+  <div class="charge-item">
+    <input type="checkbox" value="Excessive Speeding">
+    <span>Excessive Speeding</span>
+    <input type="number" min="1" placeholder="0" class="charge-count"> x
+  </div>
+
+  <div class="charge-item">
+    <input type="checkbox" value="Reckless Driving">
+    <span>Reckless Driving</span>
+    <input type="number" min="1" placeholder="0" class="charge-count"> x
+  </div>
+
+  <div class="charge-item">
+    <input type="checkbox" value="Parking Violation">
+    <span>Parking Violation</span>
+    <input type="number" min="1" placeholder="0" class="charge-count"> x
+  </div>
+
+  <div class="charge-item">
+    <input type="checkbox" value="Jaywalking">
+    <span>Jaywalking</span>
+    <input type="number" min="1" placeholder="0" class="charge-count"> x
+  </div>
+
+  <div class="charge-item">
+    <input type="checkbox" value="Driving Without a License">
+    <span>Driving Without a License</span>
+    <input type="number" min="1" placeholder="0" class="charge-count"> x
+  </div>
+
+  <div class="charge-item">
+    <input type="checkbox" value="Driving With a Suspended License">
+    <span>Driving With a Suspended License</span>
+    <input type="number" min="1" placeholder="0" class="charge-count"> x
+  </div>
+
+</div>
+
 
     <label class="required">Officer Name</label>
     <input type="text" id="officerName" readonly>

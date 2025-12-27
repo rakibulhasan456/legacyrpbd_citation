@@ -42,6 +42,19 @@ document.getElementById("citationForm").addEventListener("submit", function(e) {
   const btn = document.getElementById("submitBtn");
   btn.classList.add("loading");
   btn.disabled = true;
+    
+    // Build charges string
+let selectedCharges = [];
+
+document.querySelectorAll("#chargesContainer .charge-item").forEach(item => {
+  const checkbox = item.querySelector('input[type="checkbox"]');
+  const count = item.querySelector('.charge-count').value;
+
+  if (checkbox.checked && count > 0) {
+    selectedCharges.push(`${checkbox.value} ${count}x`);
+  }
+});
+
 
   // Gather form data
   const data = {
@@ -53,7 +66,7 @@ document.getElementById("citationForm").addEventListener("submit", function(e) {
     suspectName: document.getElementById("suspectName").value,
     cid: document.getElementById("cid").value,
       contact: document.getElementById("contact").value,
-    charges: document.getElementById("charges").value,
+    charges: selectedCharges.join(", "),
     officer: document.getElementById("officerName").value
   };
 
