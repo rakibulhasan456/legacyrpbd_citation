@@ -19,6 +19,7 @@ const officers = {
   "license:d5983d55754bb875eeb673cfa6a4a3fa34d7a0f9": "Vincent C. Fabron [421]",
   "license:06a0c64a2d99df288647e12c322c43632bed9581": "Aiden Malik [535]",
   "license:b22067c5d0dbd9a734c9206bf9ff56c4e249cdc7": "Alexander Creed [100]",
+    "license:7491a220e806d7d23a2eb6a66f6e1cd6dbe520fa": "Logan Price [928]",
   "license:5cf1427cef676147e94604232f43e4c6d434f648": "Jennie Valentine [218]",
   "license:2cffb9fcf206945b5aaf2c7b85bff925d993579d": "Arwan Zain [837]",
   "license:25c9a2fd054c70b56e7c4af47023a2fc5ae7e581": "Kakashi Hatake [67]",
