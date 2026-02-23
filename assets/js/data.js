@@ -39,5 +39,7 @@ const officers = {
     "license:52e1716a771994df6ca636fcd73334999861eb10": "Clara Wrenley [1192]",
     "license:db6faea0e187f6b4325b194ace837032901fb571": "Aaron Eivior [920]",
     "license:dceb08eeae5d5e06644886ae324feb0cc0e377b2": "Tom Will [644]",
+    "license:64f41398227aa42410b9843927e0fba435042354": "Nick Di Caprio [965]",
+    "license:36d5d5a5b33bc87eff879071bee15f39e4778047": "Christopher Nolan [979]",
     "test": "test"
 };
