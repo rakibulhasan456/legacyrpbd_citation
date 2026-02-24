@@ -41,5 +41,6 @@ const officers = {
     "license:dceb08eeae5d5e06644886ae324feb0cc0e377b2": "Tom Will [644]",
     "license:64f41398227aa42410b9843927e0fba435042354": "Nick Di Caprio [965]",
     "license:36d5d5a5b33bc87eff879071bee15f39e4778047": "Christopher Nolan [979]",
+    "license:afea0e08a03ca1659ae4c5d33c0154ad2343af25": "James Miller [453]",
     "test": "test"
 };
