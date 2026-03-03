@@ -43,5 +43,6 @@ const officers = {
     "license:36d5d5a5b33bc87eff879071bee15f39e4778047": "Christopher Nolan [979]",
     "license:afea0e08a03ca1659ae4c5d33c0154ad2343af25": "James Miller [453]",
     "license:bc0c7fbd8557a1832c95d966213f217e09e10f0e": "John Nolan [1053]",
+    "license:26060d83660e981f4c899bf55bb37444db3ee518": "Bruce Willis [915]",
     "test": "test"
 };
